@@ -1,4 +1,4 @@
-const assetEqual = function(actual, expected) {
+const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log("✅✅✅ Assertation Passed: " + actual + " === " + expected);
   } else {
@@ -6,5 +6,5 @@ const assetEqual = function(actual, expected) {
   }
 };
 
-assetEqual("Lighthouse Labs", "Bootcamp");
-assetEqual(1, 1);
+assertEqual("Lighthouse Labs", "Bootcamp");
+assertEqual(1, 1);
